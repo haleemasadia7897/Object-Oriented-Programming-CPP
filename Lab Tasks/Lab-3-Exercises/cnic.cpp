@@ -33,6 +33,9 @@ int main() {
         case 7:
             cout<< "GB";
             break;
+        default:                    // default statement was missing 
+        cout<<"invalid cnic"; 
+        
     }
     cout << " and is a ";
     if (c3 % 2)
